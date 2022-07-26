@@ -185,12 +185,14 @@ body {
 
 .option-image {
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 30px;
   margin-bottom: 30px;
   background-size: 270px 120px;
   background: #f5f4fa;
   border-radius: 4px;
+  width: 270px;
+  height: 120px;
 }
 
 .option-image:last-child {
@@ -199,7 +201,8 @@ body {
 
 .option-icon {
   display: flex;
-  align-items: center center;
+  justify-content: center;
+  align-items: center;
 }
 
 .option {
@@ -213,8 +216,6 @@ body {
 }
 
 .option-list-detailes {
-  width: 270px;
-  top: 774px;
   margin-right: 30px;
 }
 
@@ -395,26 +396,23 @@ body {
   gap: 30px;
 }
 
-.our-client-item {
+.our-client-link{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #afb1b8;
   border-radius: 4px;
   width: 170px;
   height: 92px;
-}
-
-.our-client-item:hover,
-.our-client-item:focus {
-  border-color: #2196f3;
-}
-
-.our-client-icon {
-  display: flex;
   fill: #afb1b8;
 }
 
-.our-client-icon:hover,
-.our-client-icon:focus {
-  fill: #2196f3;
+
+.our-client-link:hover,
+.our-client-link:focus {
+  border: 1px solid;
+    border-color: #2196f3;
+    fill: #2196f3;
 }
 
 .footer {
